@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm giá trị lơn nhất trong mảng</title>
+</head>
+<body>
+<script>
+    let x  =[1, 3, 6, 9, 13, 5, 15];
+    let num = x[0];
+    let y = 0;
+    for (let i = 1; i < x.length; i++) {
+        if (x[i] > num) {
+            num =x[i];
+            y = i;
+        }
+}
+alert("num: " + num + " at position " + y);
+</script>
+</body>
+</html>
